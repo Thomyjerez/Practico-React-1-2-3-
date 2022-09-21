@@ -1,7 +1,18 @@
+import Msj from "./components/Msj";
+import TituloPrincipal from "./components/TituloPrincipal";
+import './style.css'
+
 
 function App() {
+  
+  const mensaje = 'my friend!';
+
   return (
-    <h1>Hello world</h1>
+    <section> 
+    <TituloPrincipal msjInsertado={mensaje} />
+    <hr />
+    <Msj></Msj>
+    </section>
   );
 }
 
