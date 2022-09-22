@@ -1,4 +1,3 @@
-import Msj from "./components/Msj";
 import TituloPrincipal from "./components/TituloPrincipal";
 import './style.css'
 
@@ -9,9 +8,11 @@ function App() {
 
   return (
     <section> 
-    <TituloPrincipal msjInsertado={mensaje} />
-    <hr />
-    <Msj></Msj>
+    <TituloPrincipal msjInsertado={mensaje}>
+      
+    </TituloPrincipal>
+    
+    
     </section>
   );
 }
